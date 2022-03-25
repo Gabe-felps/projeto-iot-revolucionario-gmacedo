@@ -5,18 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto-IOT-Revolucionário</title>
+    <title>Acquatec Login</title>
     <link rel="stylesheet" href="style.css">
-    <!--style>
-        .container{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .main-title{
-            color:#800080;
-            font-size: 30px;
-            font-family: monospace;
-        }
-    </style-->
 </head>
 
 <body>
@@ -24,19 +14,24 @@
         <div class="container">
             <h1 class="nav-title">Acquatec</h1>
             <ul class="navbar">
-                <li class="nav-item">Home</li>
+                <li class="nav-item"><a href="index.html">Home</a></li>
                 <li class="nav-item">Sobre Nós</li>
-                <li class="nav-item"><a href="login.html">Login</a></li>
+                <li class="nav-item">Login</li>
                 <li class="nav-item">Cadastro</li>
                 <li class="nav-item">Suporte</li>
             </ul>
         </div>
     </div>
 
-    <p>Página Home</p>
-
-    <div class="container">
-        
+    <div class="banner">
+        <div class="container">
+            <div class="card">
+                <h1>Olá, bem vindo!</h1>
+                <h4>Email</h4> <input type="text" id="in_email" placeholder="Email">
+                <h4>Senha</h4> <input type="password" id="in_password" placeholder="Senha">
+                <button class="btn" onclick="funcao()">Entrar</button>
+            </div>
+        </div>
     </div>
 </body>
 
